@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:"Urbanist", sans-serif;
+    
+    }
+    
+    .header{
+        display: flex;
+        align-items: center;
+        justify-content:space-between ;
+        padding: 4px 7% ;
+        top: 0; left: 0;right: 0;
+        z-index: 1000;
+
+    }
+        
+    
+    .header .logo{
+        height: 5rem;
+        
+    }
+    .header .logo img{
+        float: left;
+        height:6rem;
+        
+
+    }
+    .header .navbar a{
+        margin: 0 1rem;
+        font-size: 1.2rem;
+        font-weight: bold;
+        color: #000000;
+       text-decoration: none;
+       font-family:"Urbanist", sans-serif;;
+    }
+    .home{
+        display: flex;
+        flex-direction: column;
+       
+        justify-content: center;
+        text-align: center;
+        position: relative;
+        min-height: 100vh;
+        width: 100%;
+        background-image:url(images/cowork.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        
+    }
+    .home h3 {
+        font-size: 50px;
+        font-family: 'Rajdhani', sans-serif;
+        color: #5a003f;
+        margin-top: 2.5rem;
+        margin-left: -11rem;
+        margin-right: 70rem;}
+        
+    body{
+        background-color: rgb(239 227 246 / 53%);
+    } 
+    .boody{
+        margin: 0.5rem;
+        margin-left:2rem ;
+        margin-right: 2rem;
+      
+    }
+    .about p{
+    
+        font-size: 1rem;
+        padding: 2.5rem 0;
+        margin-left: 0rem;
+        line-height:1.8 ;
+        color: #2e2e2e;
+        width: auto;
+        height: auto;
+    }
+    .heading{
+        text-align: justify;
+        color: #000000;
+        text-transform: uppercase;
+        padding-bottom: 0.5rem;
+        padding-top: 2rem;
+        font-size: 2rem;
+        padding-left: 15rem;
+        font-family: 'Rajdhani', sans-serif;
+    }
+    .about img{
+        float: right;
+        float: inline-end;
+        width: 35%;
+        height: 64vh;
+        margin-top: -186px;
+    }
+    .brochure {
+        width: 8.5in; /* Standard brochure width */
+        height: 11in; /* Standard brochure height */
+        margin: 0 auto;
+        padding: 1em;
+        box-shadow: 0 0 7px rgba(0, 0, 0, 0.2);
+    }
+    
+    .brochure__header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 1em;
+    }
+    
+    .brochure__header img {
+        width: 100px;
+    }
+    
+    .brochure__content {
+        display: flex;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 1em;
+        margin-top: 50px;
+        margin-left: 74px;
+    margin-right: 74px;
+    }
+     .t1{
+        text-align: justify;
+    color: #000000;
+    text-transform: uppercase;
+    padding-bottom: 0.5rem;
+    padding-top: 2rem;
+    font-size: 1.5rem;
+    padding-left: 15rem;
+    font-family: 'Rajdhani', sans-serif;
+    margin-top: 118px;
+     }
+    .brochure__content__section {
+        padding: 1em;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+    }
+    
+    .brochure__content__section h3 {
+        margin-bottom: 0.5em;
+    }
+    
+    .brochure__content__section p {
+        margin-bottom: 1em;
+    }
+    
+    .brochure__footer {
+        text-align: center;
+        margin-top: 2em;
+    }
+    
+    .button {
+        display: inline-block;
+        padding: 0.5em 1em;
+        background-color: #490196;
+        color: #fff;
+        text-decoration: none;
+    }
+    
+    .button:hover {
+        background-color: #570154;
+    }
